@@ -26,13 +26,13 @@ void main (void)
                 break;
             case 2:
                 motorpasso_init();
-                motorpasso(48, 100);
+                motorpasso(48, 10);
                 if (S2 ==1)
                 estado = 1;
                 break;
             case 3:
                 motorpasso_init();
-                motorantpasso(48, 100);
+                motorantpasso(48, 10);
                 if (S2 == 1)
                 estado = 1;
                 break;
